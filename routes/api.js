@@ -228,7 +228,7 @@ Akhir Pesan Error
 
 router.use(favicon(__path + "/views/favicon.ico"));
 
-const listkey = ["alazery"]; //api key bisa di ubah
+const listkey = ["QSNgsmXIsmwlg"]; //api key bisa di ubah
 
 router.post("/apikey", async (req, res, next) => {
   const key = req.query.key;
